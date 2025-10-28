@@ -2,6 +2,22 @@
 <html lang="en-US">
 <head>
   <title>About Me</title>
+  <style>
+  table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+  th, td {
+    padding: 10px;
+  }
+  table {
+    border-spacing: 10px;
+  }
+  tr:nth-child(even) {
+    background-color: cyan;
+  }
+  tr:hover { background-color: yellow;}
+  </style>
 </head>
 <body> 
 <style>
@@ -37,6 +53,40 @@ a:active {
 <p>My name is <em>Jovan</em>, I grew up in <strong>Jamaica</strong> and now study at the Mecca, 
     <span style="color:hsl(248, 88%, 36%)">Howard University</span> 
 </p>
+
+<table style="width:100%">
+<caption>Just Because tbh</caption>
+
+<colgroup>
+  <col span="4" style="background-color: pink">
+</colgroup>
+
+<tr>
+  <td colspan="4">Languages</td>
+</tr>
+<tr>
+  <th>English</th>
+  <td>Hello</td>
+  <td>My name is ...</td>
+  <td>How are you</td>
+</tr>
+
+<tr>
+  <th>Spanish</th>
+  <td>Hola</td>
+  <td>Mi nombre es ...</td>
+  <td>Como estas</td>
+</tr>
+
+<tr>
+  <th>German</th>
+  <td>Hallo</td>
+  <td></td>
+  <td>Wie gehts</td>
+</tr>
+
+</table>
+
 
 <a href="index.html"><em>Go back home</em></a>
 </body>
